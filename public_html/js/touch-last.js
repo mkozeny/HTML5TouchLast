@@ -186,34 +186,34 @@ var render = function() {
     
     //horizontal lines
     context.beginPath();
-    context.moveTo(50, 50);
-    context.lineTo(150, 50);
+    context.moveTo(50, 50.5);
+    context.lineTo(150, 50.5);
     context.stroke();
     
     context.beginPath();
-    context.moveTo(250, 250);
-    context.lineTo(450, 250);
+    context.moveTo(250, 250.5);
+    context.lineTo(450, 250.5);
     context.stroke();
     
     context.beginPath();
-    context.moveTo(100, 450);
-    context.lineTo(200, 450);
+    context.moveTo(100, 450.5);
+    context.lineTo(200, 450.5);
     context.stroke();
     
     //vertical lines
     context.beginPath();
-    context.moveTo(150, 50);
-    context.lineTo(150, 150);
+    context.moveTo(150.5, 50);
+    context.lineTo(150.5, 150);
     context.stroke();
     
     context.beginPath();
-    context.moveTo(450, 150);
-    context.lineTo(450, 350);
+    context.moveTo(450.5, 150);
+    context.lineTo(450.5, 350);
     context.stroke();
     
     context.beginPath();
-    context.moveTo(100, 350);
-    context.lineTo(100, 550);
+    context.moveTo(100.5, 350);
+    context.lineTo(100.5, 550);
     context.stroke();
     
     ball1.render();
